@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("plugin-architecture-design")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11b7fa77b13d38fae5a8e3a8b2a9242b7688483e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cd246b30726ab4c9ecda729d22ef5567dd6fa89")]
 [assembly: System.Reflection.AssemblyProductAttribute("plugin-architecture-design")]
 [assembly: System.Reflection.AssemblyTitleAttribute("plugin-architecture-design")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
