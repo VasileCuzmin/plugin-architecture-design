@@ -10,5 +10,5 @@ public interface IPlugin : IPluginMetadata
 
 public enum PluginStatus
 {
-    NotLoaded, Loading, Loaded, Running, Stopping, Stopped, Error
+    NotLoaded, Loading, Loaded, Running, Stopping, Stopped, Error, Unknown
 }
