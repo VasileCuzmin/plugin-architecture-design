@@ -1,10 +1,12 @@
 public class TextContentProcessor : ContentProcessorBase
 {
-    public TextContentProcessor(string id, string name, string version, string description, string author)
-        : base(id, name, version, description, author)
+
+    public TextContentProcessor()
+    : base("text-processor", "Text Content Processor", "1.0.0",
+    "Processes text-based content with various formatting options", "TechFlow Corp")
     {
     }
-
+    
     public override IEnumerable<string> SupportedContentTypes => ["text/plain", "text/markdown", "text/html"];
 
     protected override Task CleanupPluginAsync()

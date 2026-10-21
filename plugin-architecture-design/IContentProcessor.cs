@@ -15,6 +15,7 @@ public class ValidationResult
 public class ProcessingOptions
 {
     public bool ValidateOnly { get; set; } = false;
+    public string Format { get; internal set; }
 }
 
 public class ProcessingResult
