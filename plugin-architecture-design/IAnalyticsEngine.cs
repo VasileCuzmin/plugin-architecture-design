@@ -11,6 +11,7 @@ public class AnalyticsReport
     public string Title { get; set; } = string.Empty;
     public DateTime GeneratedAt { get; set; } = DateTime.UtcNow;
     public IDictionary<string, object> Metrics { get; set; } = new Dictionary<string, object>();
+    public string ContentId { get; internal set; }
 }
 
 public class AnalyticsQuery
@@ -25,6 +26,7 @@ public class AnalyticsEvent
     public string ContentId { get; set; } = string.Empty;
     public string EventType { get; set; } = string.Empty;
     public DateTime OccurredAt { get; set; } = DateTime.UtcNow;
+    public required object UserId { get; set; }
 }
 
 public class AnalyticsInsight
@@ -33,4 +35,5 @@ public class AnalyticsInsight
     public string InsightType { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
     public DateTime GeneratedAt { get; set; } = DateTime.UtcNow;
+    public Dictionary<string, object> Data { get; set; } = [];
 }

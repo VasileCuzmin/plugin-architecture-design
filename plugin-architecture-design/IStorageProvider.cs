@@ -29,4 +29,8 @@ public class StorageCapabilities
     public bool CanRetrieveContent { get; set; } = false;
     public bool CanDeleteContent { get; set; } = false;
     public bool CanGetStatistics { get; set; } = false;
+    public int MaxFileSize { get; internal set; }
+    public string[] SupportedFormats { get; internal set; }
+    public bool SupportsVersioning { get; internal set; }
+    public bool SupportsEncryption { get; internal set; }
 }
